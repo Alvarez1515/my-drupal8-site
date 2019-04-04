@@ -1,9 +1,9 @@
-uuid: e9a5a77c-adf8-47ff-b9ea-65d8d18c076c
+uuid: 79ee1913-7b89-4cbe-a444-c7882b4e38ee
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.full
     - field.field.node.multimedia.body
     - field.field.node.multimedia.field_imagen
     - field.field.node.multimedia.field_nombre
@@ -11,28 +11,28 @@ dependencies:
   module:
     - image
     - user
-id: node.multimedia.teaser
+id: node.multimedia.full
 targetEntityType: node
 bundle: multimedia
-mode: teaser
+mode: full
 content:
   field_imagen:
-    type: image
-    weight: 0
-    region: content
+    weight: 102
     label: inline
     settings:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
-  field_nombre:
-    type: string
-    weight: 0
+    type: image
     region: content
+  field_nombre:
+    weight: 103
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    type: string
+    region: content
 hidden:
   body: true
   links: true
