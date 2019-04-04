@@ -1,0 +1,14 @@
+uuid: d94babc2-2242-4cb1-a1be-6f698eca1b49
+name: 'Curso TM7101'
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
