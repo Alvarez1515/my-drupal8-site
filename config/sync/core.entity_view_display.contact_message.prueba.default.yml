@@ -1,0 +1,30 @@
+uuid: fe5f0adb-c0b1-4aff-885d-7bea1afa7d56
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.prueba
+    - field.field.contact_message.prueba.field_cv
+  module:
+    - file
+id: contact_message.prueba.default
+targetEntityType: contact_message
+bundle: prueba
+mode: default
+content:
+  field_cv:
+    weight: 1
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  message:
+    type: basic_string
+    weight: 0
+    label: above
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

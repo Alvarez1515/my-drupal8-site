@@ -1,0 +1,12 @@
+uuid: f93a25e7-3830-45b2-8c5f-21d305a53a70
+langcode: en
+status: true
+dependencies: {  }
+id: prueba
+label: 'form de prueba'
+recipients:
+  - solanoalvarez21@gmail.com
+reply: ''
+weight: 0
+message: 'Gracias por los comentarios'
+redirect: /node/1

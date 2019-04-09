@@ -1,0 +1,8 @@
+uuid: dbd6e7d6-1021-4457-ac79-af9e06ce669a
+langcode: en
+status: true
+dependencies: {  }
+id: menu-prueba
+label: 'menu prueba'
+description: 'este es un menu de prueba'
+locked: false
